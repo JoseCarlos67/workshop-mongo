@@ -15,7 +15,6 @@ import java.util.Objects;
 public class User implements Serializable {
   private static final long serialVersionUID = 1L;
 
-  @Setter(AccessLevel.NONE)
   @Id()
   private String id;
 
